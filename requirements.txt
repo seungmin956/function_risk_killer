@@ -1,0 +1,94 @@
+# Streamlit Core
+streamlit>=1.28.0
+
+# LangChain 패키지들
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+langgraph>=0.0.26
+langchain-teddynote>=0.0.24
+
+# Vector Database
+chromadb>=0.4.0
+
+# OpenAI
+openai>=1.0.0
+
+# 웹 크롤링 및 스크래핑
+selenium>=4.0.0
+webdriver-manager>=4.0.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+
+# 검색 도구
+duckduckgo-search>=5.0.0
+
+# 데이터 처리
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 시각화
+plotly>=5.15.0
+
+# 환경 변수 관리
+python-dotenv>=1.0.0
+
+# 엑셀 파일 처리 (로컬 개발용)
+# xlwings>=0.30.0  # 주석 처리: Streamlit Cloud에서 지원되지 않음
+
+# 엑셀 파일 처리 대안 (웹 배포용)
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# 웹 컴포넌트
+streamlit-components-v1
+
+# 수학 연산
+math3d>=3.4.0
+
+# 날짜/시간 처리
+python-dateutil>=2.8.0
+
+# 정규식 및 텍스트 처리
+regex>=2023.0.0
+
+# JSON 처리
+jsonschema>=4.17.0
+
+# 병렬 처리
+concurrent-futures>=3.1.1
+
+# 로깅
+loguru>=0.7.0
+
+# HTTP 요청
+httpx>=0.24.0
+
+# 타입 힌팅
+typing-extensions>=4.5.0
+
+# 웹 스크래핑 추가 도구
+html5lib>=1.1
+soupsieve>=2.4.0
+
+# 암호화 및 보안
+cryptography>=41.0.0
+
+# 캐싱
+cachetools>=5.3.0
+
+# 문서 처리
+markdownify>=0.11.0
+
+# RSS 피드 처리
+feedparser>=6.0.10
+# 시간대 처리
+pytz>=2023.3
+
+
+# 기타 유틸리티
+python-magic>=0.4.0
+tqdm>=4.65.0
+PyYAML>=6.0.0
