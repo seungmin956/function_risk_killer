@@ -5,7 +5,6 @@ import pysqlite3
 sys.modules['sqlite3'] = pysqlite3
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 # 페이지 기본 설정
 st.set_page_config(page_title="Risk Killer", page_icon="🔪", layout="wide")
