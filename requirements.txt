@@ -39,6 +39,8 @@ xlsxwriter>=3.1.0,<4.0.0
 # Image processing
 Pillow>=9.5.0,<11.0.0
 
+pysqlite3-binary>=0.5.0
+
 # Built-in modules (no installation needed)
 # sqlite3, asyncio, typing-extensions, threading, concurrent.futures
 # logging, re, time, datetime, os, glob, json, io, functools
