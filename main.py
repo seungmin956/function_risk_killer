@@ -1,17 +1,21 @@
-# main.py (v1)
-
-# main.py (안전한 버전)
+#main.py
 import sys
 
-# SQLite 버전 문제 해결 (ChromaDB용)
+# SQLite 버전 문제 해결 (ChromaDB용) - 더 강력한 방법
 try:
+    # pysqlite3를 sqlite3로 완전히 대체
     import pysqlite3
     sys.modules['sqlite3'] = pysqlite3
+    
+    # 추가 패치: __pysqlite__ 모듈도 대체
+    import pysqlite3.dbapi2 as sqlite3
+    sys.modules['pysqlite2'] = pysqlite3
+    sys.modules['pysqlite2.dbapi2'] = pysqlite3.dbapi2
+    
 except ImportError:
-    pass  # 로컬 환경에서는 그냥 넘어감
+    pass
 
 import streamlit as st
-
 # 페이지 기본 설정
 st.set_page_config(page_title="Risk Killer", page_icon="🔪", layout="wide")
 
