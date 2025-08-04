@@ -1,8 +1,14 @@
 # main.py (v1)
 
+# main.py (안전한 버전)
 import sys
-import pysqlite3
-sys.modules['sqlite3'] = pysqlite3
+
+# SQLite 버전 문제 해결 (ChromaDB용)
+try:
+    import pysqlite3
+    sys.modules['sqlite3'] = pysqlite3
+except ImportError:
+    pass  # 로컬 환경에서는 그냥 넘어감
 
 import streamlit as st
 
