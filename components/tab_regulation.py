@@ -63,7 +63,7 @@ def display_recent_regulations(regulation_data, max_items=5):
 
     items_to_show = get_filtered_regulations(regulation_data, max_items, 0)
 
-    with st.expander("📋 최근 규제 변경", expanded=True):
+    with st.expander("📋 최근 규제 변경", expanded=False):
         for i, item in enumerate(items_to_show):
             title = item.get('title_korean', '제목 없음')
             date = item.get('change_date', 'N/A')
@@ -212,7 +212,7 @@ def show_regulation_chat():
             display_recent_regulations(st.session_state.recent_regulation_data)
 
         # 예시 질문 섹션
-        with st.expander("💡 예시 질문", expanded=False):
+        with st.expander("💡 예시 질문", expanded=True):
             regulation_questions = get_regulation_questions()
             
             cols = st.columns(2)
