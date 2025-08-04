@@ -63,7 +63,7 @@ def display_recent_regulations(regulation_data, max_items=5):
 
     items_to_show = get_filtered_regulations(regulation_data, max_items, 0)
 
-    with st.expander("📋 최근 규제 변경", expanded=False):
+    with st.expander("📋 최근 규제 변경", expanded=True):
         for i, item in enumerate(items_to_show):
             title = item.get('title_korean', '제목 없음')
             date = item.get('change_date', 'N/A')
