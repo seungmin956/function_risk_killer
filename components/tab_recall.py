@@ -207,7 +207,7 @@ def render_sidebar_controls(project_name, chat_mode, session_keys):
 
 def render_example_questions(session_keys, is_processing):
     """예시 질문 섹션 렌더링"""
-    with st.expander("💡 예시 질문", expanded=False):
+    with st.expander("💡 예시 질문", expanded=True):
         recall_questions = get_recall_questions()
         
         cols = st.columns(2)
