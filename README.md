@@ -12,7 +12,7 @@
 <p>맞춤형 LLM 챗봇을 구현하기 위해 진행한 프로젝트입니다.</p>
 
 -- [실시간 앱 실행 (Streamlit)](https://functionriskkiller-5wmwxsr87emk8z5zh5nee3.streamlit.app/)
--- [상세보고서 (PDF)](https://www.notion.so/Risk_Killer.pdf)
+-- [상세보고서 (PDF)](Risk_Killer.pdf)
 
 ---
 
