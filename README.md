@@ -8,9 +8,11 @@
 <p><strong>팀 프로젝트</strong> | <strong>🏆2025 K-디지털 트레이닝 해커톤 예선 합격 및 본선 진행중</strong><br></p>
 <p>중소 식품 기업들이 전문 인력 비용 부담을 줄이고 효율적으로 미국 시장에 진입할 수 있는 </p>
 <p>맞춤형 LLM 챗봇을 구현하기 위해 진행한 프로젝트입니다.</p>
+
 -- [실시간 앱 실행 (Streamlit)](https://functionriskkiller-5wmwxsr87emk8z5zh5nee3.streamlit.app/)
 -- [상세보고서 (PDF)](Risk_Killer.pdf)
 ---
+
 ## 주요 기능
 <table>
 <tr>
@@ -29,6 +31,7 @@
 </tr>
 </table>
 ---
+
 ## 개발 과정에서 해결한 주요 문제들
 <table>
 <thead>
